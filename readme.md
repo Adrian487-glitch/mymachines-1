@@ -1,0 +1,1 @@
+this is a basic readme and I dont know how to write markdown file format text, soo this is just plain and simple analog text lmao,!!.UwU
