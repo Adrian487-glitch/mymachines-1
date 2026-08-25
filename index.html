@@ -3,10 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Git Style Website</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>My machines</h1>
-    <p>testing</p>
+
+    <!-- Header -->
+    <header>
+        <div class="container nav">
+            <a href="#" class="logo">git</a>
+
+            <nav>
+                <a href="#">Documentation</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main content -->
+    <main class="container">
+
+        <div>
+            <h2>Hva er Git?</h2>
+            <p>
+                Git er et distribuert versjonskontrollsystem som brukes til å 
+                spore endringer i kildekode og andre filer over tid
+            </p>
+        </div>
+
+
+        <!-- Cards -->
+        <section class="cards">
+
+            <div class="card">
+                <h3>Fast</h3>
+                <p>
+                    Git is designed to be fast and efficient, even with
+                    large projects.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Distributed</h3>
+                <p>
+                    Every developer has a complete copy of the repository.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Open Source</h3>
+                <p>
+                    Git is free and open source software used by developers
+                    around the world.
+                </p>
+            </div>
+
+        </section>
+
+
+        <!-- Code example -->
+        <section>
+            <h2>Basic Git commands</h2>
+
+            <div class="code">
+                <code>
+                    git init<br>
+                    git add .<br>
+                    git commit -m "Initial commit"<br>
+                    git push
+                </code>
+            </div>
+        </section>
+
+
+        <!-- Callout -->
+        <section class="callout">
+            <h3>Learn Git</h3>
+
+            <p>
+                Start learning Git by creating a repository and
+                experimenting with commits and branches.
+            </p>
+
+            <a href="#">Read the documentation →</a>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Git Style Website</p>
+        </div>
+    </footer>
+
 </body>
 </html>
