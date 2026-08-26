@@ -201,6 +201,7 @@ code span{
 }
 
 .fargeboks{
+    width: 100%;
     min-height: 100px;
 
     display: flex;
@@ -210,20 +211,4 @@ code span{
     border: 1px solid var(--border);
     border-radius: 5px;
 } 
-
-.palette {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 50px;
-}
-
-.palette-item {
-    flex: 1 1 200px;
-}
-
-.palette-item h1 {
-    margin: 0 0 15px;
-    font-size: 28px;
-}
 
